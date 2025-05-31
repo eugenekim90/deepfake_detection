@@ -5,11 +5,11 @@ A lightweight CNN-based deepfake detection system with interactive dashboard. **
 ## 🎮 Dashboard Preview
 
 ### Real Face Detection
-![Real Face Example](data/sample/real1.png)
+![Real Face Example](data/sample/realexample.png)
 *Dashboard correctly identifies a real face with high confidence*
 
 ### Fake Face Detection  
-![Fake Face Example](data/sample/fake.png)
+![Fake Face Example](data/sample/fakeexample.png)
 *Dashboard detects a GAN-generated fake face with Grad-CAM visualization*
 
 ## 🚀 Quick Start
