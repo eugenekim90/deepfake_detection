@@ -5,11 +5,11 @@ A lightweight CNN-based deepfake detection system with interactive dashboard. **
 ## 🎮 Dashboard Preview
 
 ### Real Face Detection
-![Real Face Example](data/sample/realexample.png)
+![Real Face Example](assets/real.png)
 *Dashboard correctly identifies a real face with high confidence*
 
 ### Fake Face Detection  
-![Fake Face Example](data/sample/fakeexample.png)
+![Fake Face Example](assets/fake.png)
 *Dashboard detects a GAN-generated fake face with Grad-CAM visualization*
 
 ## 🚀 Quick Start
@@ -110,9 +110,9 @@ Open `http://localhost:8501` in your browser.
 ├── app.py              # Streamlit dashboard
 ├── notebook.ipynb      # Training notebook (START HERE)
 ├── requirements.txt    # Dependencies
+├── assets/             # Sample images for demo
 ├── eda/               # Analysis results
 ├── data/              # Dataset (download separately)
-│   └── sample/        # Sample images for demo
 └── best_model.keras   # Your trained model (after training)
 ```
 
