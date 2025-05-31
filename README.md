@@ -1,6 +1,6 @@
 # 🔍 Deepfake Detection System
 
-A lightweight CNN-based deepfake detection system with interactive dashboard. **Train your own model** from scratch using the provided notebook and dataset.
+A lightweight CNN-based deepfake detection system with interactive dashboard. 
 
 ## 🎮 Dashboard Preview
 
