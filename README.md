@@ -77,12 +77,6 @@ ls best_model.keras
 # Run interactive dashboard
 streamlit run app.py
 ```
-Open `http://localhost:8501` in your browser.
-
-### Cloud Deployment
-1. Train model locally first
-2. Upload trained model to your deployment
-3. Deploy to Streamlit Cloud/Heroku/etc.
 
 ## 🎮 Dashboard Features
 
