@@ -15,6 +15,11 @@ data/
 datasets/
 real_vs_fake/
 
+# Exception: Allow small sample images for README
+!data/sample/
+!data/sample/*.png
+!data/sample/*.jpg
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 

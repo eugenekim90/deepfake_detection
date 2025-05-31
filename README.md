@@ -2,6 +2,16 @@
 
 A lightweight CNN-based deepfake detection system with interactive dashboard. **Train your own model** from scratch using the provided notebook and dataset.
 
+## 🎮 Dashboard Preview
+
+### Real Face Detection
+![Real Face Example](data/sample/real.png)
+*Dashboard correctly identifies a real face with high confidence*
+
+### Fake Face Detection  
+![Fake Face Example](data/sample/fake.png)
+*Dashboard detects a GAN-generated fake face with Grad-CAM visualization*
+
 ## 🚀 Quick Start
 
 ### 1. Install Dependencies
@@ -102,6 +112,7 @@ Open `http://localhost:8501` in your browser.
 ├── requirements.txt    # Dependencies
 ├── eda/               # Analysis results
 ├── data/              # Dataset (download separately)
+│   └── sample/        # Sample images for demo
 └── best_model.keras   # Your trained model (after training)
 ```
 
