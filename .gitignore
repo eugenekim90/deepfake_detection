@@ -55,6 +55,10 @@ runs/*/logs/
 # PDF files
 *.pdf
 
+# PowerPoint presentations
+*.pptx
+*.ppt
+
 # Temporary files
 *.tmp
 *.temp
