@@ -1,17 +1,19 @@
-# Model files (too large for git - keep locally but don't upload)
+# Model files (users must train their own - DO NOT INCLUDE)
 *.keras
 *.h5
 *.pt
 *.pth
 *.pkl
 *.joblib
+best_model.*
+model.*
+checkpoint.*
 
-# Large data files (too large for git)
-train.csv
-test.csv
-valid.csv
+# Data files (too large for git - users download separately)
+*.csv
 data/
 datasets/
+real_vs_fake/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
